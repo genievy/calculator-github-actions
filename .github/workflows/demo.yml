@@ -2,7 +2,8 @@ name: Demo Workflow
 on: workflow_dispatch
 jobs:
   print:
-    runs-on: Ubuntu 20.04.5
+    timeout-minutes: 1
+    runs-on: ubuntu-latest
     steps:
       - name: Print to console
         run: echo Hello GitHub Actions!
