@@ -8,7 +8,7 @@ jobs:
       - name: Print to console
         run: echo Hello GitHub Actions!
       - name: Print a few lines
-        run:
+        run: |
           echo first line
           echo second line
           
